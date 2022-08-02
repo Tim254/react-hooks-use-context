@@ -9,4 +9,4 @@ const UserProvider = ({children}) => {
     return <UserContext.Provider value={{user, setUser}}>{children}</UserContext.Provider>
 }
 
-export {UserContext, UserProvider}
+export {UserContext, UserProvider};
